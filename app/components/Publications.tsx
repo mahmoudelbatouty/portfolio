@@ -7,11 +7,11 @@ export default function Publications() {
       id="publications"
       className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-24 py-10 scroll-mt-20"
     >
-      <TerminalWindow title="publications.bib" className="max-w-3xl">
+      <TerminalWindow title="publications.bib">
         <p className="font-mono text-xs text-fg-muted">
           {"$ cat publications.bib"}
         </p>
-        <p className="mt-4 text-sm leading-relaxed text-fg-muted">
+        <p className="mt-4 max-w-3xl text-sm leading-relaxed text-fg-muted">
           {publication.citation}
         </p>
         <a

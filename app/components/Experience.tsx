@@ -4,7 +4,7 @@ import { experience } from "@/lib/data";
 export default function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-24 py-10 scroll-mt-20">
-      <TerminalWindow title="experience.log" className="max-w-4xl">
+      <TerminalWindow title="experience.log">
         <p className="font-mono text-xs text-fg-muted">{"$ cat experience.log"}</p>
         <div className="mt-4 divide-y divide-border">
           {experience.map((e) => (

@@ -9,7 +9,7 @@ export default function Contact() {
       <p className="font-mono text-accent text-sm mb-4">
         $ contact --resume --linkedin --github --email
       </p>
-      <div className="max-w-3xl rounded-lg border border-border bg-bg-elevated p-5 sm:p-6">
+      <div className="rounded-lg border border-border bg-bg-elevated p-5 sm:p-6">
         <div className="flex flex-wrap gap-3 font-mono text-sm mb-5">
           <a
             href={contact.resumeHref}
