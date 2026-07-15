@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code local settings
+.claude/settings.local.json
+
+# source assets kept outside the app (already copied into public/)
+/Mahmoud_Elbatouty_Resume.pdf
+/fl_blue_pic_1.JPG
