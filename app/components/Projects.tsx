@@ -2,7 +2,7 @@ import { projects } from "@/lib/data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-24 py-10 scroll-mt-20">
+    <section id="projects" className="mx-auto max-w-4xl px-4 sm:px-6 py-10 scroll-mt-20">
       <p className="font-mono text-accent text-sm mb-4">$ ls ./projects</p>
       <div className="space-y-6">
         {projects.map((p) => (
@@ -18,7 +18,7 @@ export default function Projects() {
             <h3 className="mt-2 text-xl font-semibold text-fg">{p.title}</h3>
             <p className="mt-1 font-mono text-xs text-fg-muted">{p.context}</p>
 
-            <div className="mt-4 max-w-3xl space-y-4 text-sm leading-relaxed">
+            <div className="mt-4 space-y-4 text-sm leading-relaxed">
               <div>
                 <p className="font-mono text-xs text-accent mb-1">problem</p>
                 <p className="text-fg-muted">{p.problem}</p>
