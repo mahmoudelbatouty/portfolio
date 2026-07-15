@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <footer
       id="contact"
-      className="mx-auto max-w-4xl px-4 sm:px-6 py-14 scroll-mt-20"
+      className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-24 py-14 scroll-mt-20"
     >
       <p className="font-mono text-accent text-sm mb-4">
         $ contact --resume --linkedin --github --email

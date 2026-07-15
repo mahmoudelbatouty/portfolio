@@ -11,7 +11,7 @@ const links = [
 export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg/85 backdrop-blur">
-      <nav className="mx-auto flex max-w-4xl items-center gap-3 px-4 sm:px-6 py-3">
+      <nav className="mx-auto flex max-w-[1800px] items-center gap-3 px-6 sm:px-10 lg:px-16 xl:px-24 py-3">
         <a
           href="#top"
           className="hidden md:inline font-mono text-sm text-accent shrink-0"
