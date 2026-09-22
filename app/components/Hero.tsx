@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-fg-muted max-w-xl">
             <span className="typewriter">
-              Data scientist &amp; PhD candidate, AI systems
+              AI engineer &amp; data scientist, PhD candidate
             </span>
             <span className="cursor-blink text-accent">_</span>
           </p>

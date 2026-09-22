@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mahmoud Elbatouty — Data Scientist & AI Systems Researcher",
+  title: "Mahmoud Elbatouty — AI Engineer & Data Scientist",
   description:
-    "Data scientist at Florida Blue and PhD candidate in Intelligent Systems (AI) at the University of North Florida. Portfolio of machine learning and AI projects.",
+    "AI engineer at Overclock, data scientist at Florida Blue, and PhD candidate in Intelligent Systems. Portfolio of AI agents, MCP workflows, LLM applications, and machine-learning projects.",
 };
 
 const themeInitScript = `
