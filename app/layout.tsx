@@ -15,9 +15,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mahmoud Elbatouty — AI Engineer & Data Scientist",
+  metadataBase: new URL("https://mahmoud-elbatouty.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  title: "Mahmoud Elbatouty — AI-Focused Data Scientist",
   description:
-    "AI engineer at Overclock, data scientist at Florida Blue, and PhD candidate in Intelligent Systems. Portfolio of AI agents, MCP workflows, LLM applications, and machine-learning projects.",
+    "Data scientist and software developer at Florida Blue, and PhD candidate in Intelligent Systems. Portfolio of AI agents, MCP workflows, LLM applications, and machine-learning projects.",
 };
 
 const themeInitScript = `
