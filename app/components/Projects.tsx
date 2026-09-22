@@ -8,7 +8,7 @@ export default function Projects() {
         {projects.map((p) => (
           <article
             key={p.file}
-            id={p.file.replace(/\.py$/, "")}
+            id={p.file.replace(/\.[^.]+$/, "")}
             className="rounded-lg border border-border bg-bg-elevated p-5 sm:p-6 scroll-mt-20"
           >
             <p className="font-mono text-sm">
@@ -53,11 +53,6 @@ export default function Projects() {
           </article>
         ))}
 
-        <div className="rounded-lg border border-dashed border-border p-5 sm:p-6 text-center">
-          <p className="font-mono text-sm text-fg-muted">
-            03_*.py <span className="text-border">// more coming soon</span>
-          </p>
-        </div>
       </div>
     </section>
   );

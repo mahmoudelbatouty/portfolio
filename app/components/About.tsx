@@ -7,14 +7,14 @@ export default function About() {
       <TerminalWindow title="about.md">
         <p className="font-mono text-xs text-fg-muted">{"// about.md"}</p>
         <p className="mt-4 leading-relaxed text-fg">
-          Data scientist at Florida Blue and PhD student in Intelligent Systems
-          (AI) at the University of North Florida. My work spans classical
-          machine learning — clustering, statistical modeling, forecasting —
-          and modern generative AI: RAG pipelines, LLMs, embeddings, and
-          vector databases. I like turning messy, real-world data into
-          systems that people actually use, whether that&apos;s an executive
-          dashboard or a model that directs $70K toward families at risk of
-          losing their homes.
+          AI engineer at Overclock, data scientist and software developer at
+          Florida Blue, and PhD student in Intelligent Systems (AI) at the
+          University of North Florida. I build machine-learning systems,
+          LLM applications, AI agents, and MCP-enabled workflows that connect
+          models with real tools and data. My work ranges from autonomous and
+          multi-agent systems to healthcare analytics, executive reporting,
+          and models that help direct resources to families at risk of losing
+          their homes.
         </p>
 
         <div className="mt-6 border-t border-border pt-5">
