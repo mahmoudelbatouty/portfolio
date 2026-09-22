@@ -7,14 +7,13 @@ export default function About() {
       <TerminalWindow title="about.md">
         <p className="font-mono text-xs text-fg-muted">{"// about.md"}</p>
         <p className="mt-4 leading-relaxed text-fg">
-          AI engineer at Overclock, data scientist and software developer at
-          Florida Blue, and PhD student in Intelligent Systems (AI) at the
-          University of North Florida. I build machine-learning systems,
-          LLM applications, AI agents, and MCP-enabled workflows that connect
-          models with real tools and data. My work ranges from autonomous and
-          multi-agent systems to healthcare analytics, executive reporting,
-          and models that help direct resources to families at risk of losing
-          their homes.
+          Data scientist and software developer at Florida Blue, and PhD
+          student in Intelligent Systems (AI) at the University of North
+          Florida. I build machine-learning systems, LLM applications, AI
+          agents, and MCP-enabled workflows that connect models with real tools
+          and data. My work ranges from autonomous and multi-agent systems to
+          healthcare analytics, executive reporting, and models that help
+          direct resources to families at risk of losing their homes.
         </p>
 
         <div className="mt-6 border-t border-border pt-5">
